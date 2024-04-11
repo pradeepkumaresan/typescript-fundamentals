@@ -24,4 +24,6 @@ function useCamera<T extends CameraGenerics>(camera: T): string {
 }
 
 const myCamera = new PhoneCamera();
-console.log(useCamera(myCamera));export ./4-advanced/3-generics in functions.ts;
+console.log(useCamera(myCamera));
+
+export {};

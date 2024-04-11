@@ -33,4 +33,4 @@ courseCart.addItem({ name: "Course 2", author: "Jane", price: 300 });
 
 console.log(courseCart.getItems());
 
-export ./4-advanced/5-generic classes.ts;
+export {};

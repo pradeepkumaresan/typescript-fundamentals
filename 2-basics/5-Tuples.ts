@@ -17,3 +17,5 @@ const newUserTuple: UserType = [11, "true"];
 newUserTuple.push(1); // OK. but should not be. as it violates tuple's fixed length characteristic
 // newUserTuple.push(true); // not allowed
 // Argument of type 'boolean' is not assignable to parameter of type 'number | String'export ./2-basics/5-Tuples.ts;
+
+console.log(newUserTuple);

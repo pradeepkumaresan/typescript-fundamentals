@@ -1,5 +1,8 @@
 const superHeroes1 = []; // array of never type. cat's push values to it.
-const superHeroes2: [] = []; // an empty array. can't push values to it.
+const superHeroes2: [] = []; // an empty never array. can't push values to it.
+
+//superHeroes1.push('');
+//superHeroes2.push(''); // this is not allowed
 
 const superHeroes: string[] = []; // array of strings
 const superHeroPower: Array<number> = []; // another way to declare array 
@@ -13,17 +16,20 @@ type User = {
 
 const allUsers: User[] = []; // array of users
 
-//allUsers.push("John"); // this is not allowed
-
-const user1: User = {
+const john = {
     name: 'John',
     age: 30
 }
-allUsers.push(user1);
+
+allUsers.push(john); 
+
+console.log(allUsers);
 
 const matrix: number[][] = [
     [1, 2],
     [3, 4],
-    //[5, '6'] // this is not allowed  
+    [5, 6], 
+    //[7, '8']// this is not allowed  
 ]; // 2D array
-export ./2-basics/3-Arrays.ts;
+
+export {};

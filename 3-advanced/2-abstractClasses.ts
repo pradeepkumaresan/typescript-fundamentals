@@ -25,4 +25,6 @@ console.log(myPhone.takePhoto());
 console.log(myPhone.recordVideo());
 console.log(myPhone.applyFilter());
 console.log(myPhone.mode);
-console.log(myPhone.brand);export ./4-advanced/2-abstractClasses.ts;
+console.log(myPhone.brand);
+
+export {};

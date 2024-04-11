@@ -23,4 +23,6 @@ printAll("abc")
 console.log()
 printAll(["a", "b", "c"])
 console.log()
-printAll(null)export ./4-advanced/6-type narrowing.ts;
+printAll(null)
+
+export {};

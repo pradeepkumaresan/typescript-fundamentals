@@ -41,4 +41,6 @@ const rectangle: Rectangle = { kind: "rectangle", width: 10, height: 20 };
 
 console.log(getArea(circle));
 console.log(getArea(square));
-console.log(getArea(rectangle));export ./4-advanced/9-exhaustiveness checking.ts;
+console.log(getArea(rectangle));
+
+export {};

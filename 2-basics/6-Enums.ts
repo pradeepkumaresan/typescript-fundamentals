@@ -5,4 +5,7 @@ const enum seatChoice {
 }
 
 const mySeat = seatChoice.AISLE;
-export ./2-basics/6-Enums.ts;
+
+console.log(mySeat); 
+
+export {};

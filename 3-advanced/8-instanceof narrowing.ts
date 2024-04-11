@@ -15,4 +15,6 @@ const animal3 = { crawl: () => console.log('crawl')};
 
 console.log(isFish(animal1)); // true
 console.log(isFish(animal2)); // false
-// console.log(isFish(animal3)); // cannot find swim or fly in animal3export ./4-advanced/8-instanceof narrowing.ts;
+// console.log(isFish(animal3)); // cannot find swim or fly in animal3
+
+export {};

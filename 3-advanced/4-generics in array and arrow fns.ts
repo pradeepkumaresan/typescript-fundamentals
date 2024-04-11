@@ -13,4 +13,5 @@ console.log(filterProducts2(products));
 
 const filterProductsArrow = <T>(arg: T[]): T[] => arg.slice(0, 2);
 console.log(filterProductsArrow(products));
-export ./4-advanced/4-generics in array and arrow fns.ts;
+
+export {};

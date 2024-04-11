@@ -30,4 +30,5 @@ const user2: UserInterface = {
 };
 
 user2.email = "sdn@email.com";
-export ./2-basics/7-interfaces.ts;
+
+export {};

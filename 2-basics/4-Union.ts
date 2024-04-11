@@ -13,31 +13,26 @@ type Admin = {
 }
 
 let pradeep: User|Admin = {
-    name: 'Pradeep',
+    name: 'abc',
     age: 30
 }
 // either only User or Admin properties can be present
-let pradeepAdmin: User|Admin = {
+let abcAdmin: User|Admin = {
   id: 1,
-  username: 'pradeep'
+  username: 'abc'
 }
 
 function getId(id: number|string){
     if(typeof id === 'string'){
-        id.toLowerCase();
+        return id.toLowerCase();
     }
     //id.toLowerCase(); // not allowed. Property 'toLowerCase' does not exist on type 'number'.
     //id + 2; // now sllowed. Operator '+' cannot be applied to types 'string | number'
     return id;
 }
-getId(123);
-getId('pradeep');
+console.log(getId(123));
+console.log(getId('ABC'));
 
-const numbers: number[] = [1, 2, 3, 4, 5];
-const numbers1: string[] = ['1', '2', '3', '4', '5'];
-
-// now allowed. it can be either all strings or all numbers
-// const numbers2: string[] | number[] = [1, 2, 3, '4', '5'];
 
 // this is allowed
 const numbers3: string[] | number[] = [1, 2, 3, 4, 5];
@@ -52,4 +47,4 @@ let pi: 3.14 = 3.14;
 let planeSeats: 'window' | 'aisle' | 'middle' = 'window';
 // planeSeats = 'jump-seat'; // not allowed. 
 
-export {} // this is needed to avoid TS error: Cannot redeclare block-scoped variable 'score'.ts(2451)export ./2-basics/4-Union.ts;
+export {} 

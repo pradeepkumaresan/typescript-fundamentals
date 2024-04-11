@@ -34,4 +34,4 @@ class DSLR implements CameraInf {
     return "DSLR Video recorded";
   }
 }
-export ./4-advanced/1-interfaces.ts;
+export {};

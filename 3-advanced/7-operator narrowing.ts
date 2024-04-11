@@ -29,4 +29,6 @@ const admin: Admin1 = {
 }
 
 isAdmin(person);
-isAdmin(admin);export ./4-advanced/7-operator narrowing.ts;
+isAdmin(admin);
+
+export {};
